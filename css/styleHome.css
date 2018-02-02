@@ -1,0 +1,74 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    background-color: #EF7D1B;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 150%;
+
+}
+
+p{
+    color: white;
+    text-align: center;
+}
+
+table{
+    width: 100%;
+    height: 100%;
+}
+
+table tr{
+    height: 50%;
+}
+
+        /*contact*/
+
+#contact{
+    background-color: #EF7D1B;
+    width: 50%;
+    padding-top: 9%;
+    cursor: pointer;
+}
+
+#contact img{
+  max-width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+
+        /*settings*/
+
+#settings{
+    background-color: #C65F06;
+    width: 50%;
+    cursor: pointer;
+}
+
+#settings img{
+    max-width: 80%;
+    display: block;
+    margin: 5% auto;
+
+}
+
+#settings p{
+    padding-top: 9%;
+    cursor: pointer;
+}
+
+        /*leren*/
+
+#leren{
+    background-color: #FF841A;
+    width: 100%;
+    cursor: pointer;
+
+}
+
+#leren img{
+    max-width: 40%;
+    display: block;
+    margin: 8% auto;
+}

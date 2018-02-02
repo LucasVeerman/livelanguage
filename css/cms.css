@@ -1,0 +1,200 @@
+html{
+    font-family: 'Quicksand', sans-serif;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+table
+{
+    text-align: center;
+}
+table th, td{
+    padding: 5px;
+}
+.menu{
+    background-color: #f7941d;
+    height: 100px;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    background-color: #dd7d08;
+    height: 100px;
+    width: 5%;
+    text-align: center;
+    box-shadow: 0px 0px 5px black;
+    display: inline-block;
+    float: left;
+}
+#logo{
+    height: 50px;
+    padding-top: 50%;
+}
+.menu h2{
+    color: white;
+    display: inline;
+}
+.lijn{
+    height: 3px;
+    margin-top: 20px;
+    background-color: #fcb614;
+}
+
+.sidebar{
+    height: 100vh;
+    padding-top: 10px;
+    width: 5%;
+    background: linear-gradient(to bottom, #f7941d , black);
+    display: inline-block;
+}
+.sidebar hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.pagina{
+    margin-top: 30px;
+    width: 95%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+.pagina h3{
+    text-align: left;
+}
+.pagina h2{
+    text-align: left;
+    margin-left: 5%;
+}
+.categorien{
+    width: 40%;
+    margin-right: 5%;
+    display: inline-block;
+}
+.vlaggen{
+    height: 230px;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+#vlag{
+    height: 110px;
+}
+
+.woorden{
+    width: 40%;
+    display: inline-block;
+}
+.addCategory
+{
+    width: 40%;
+    margin-right: 5%;
+    display: inline-block;
+    text-align: left;
+}
+.addWord
+{
+    width: 40%;
+    display: inline-block;
+    text-align: left;
+}
+.mappen{
+    height: 230px;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+#map{
+    height: 90px;
+}
+
+.lijsten{
+    width: 40%;
+    margin-left: 52.5%
+}
+.bestanden{
+    height: 230px;
+    text-align: center;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    overflow-y: scroll;
+}
+#bestand{
+    height: 70px;
+}
+
+#gebruikersTabel{
+    border: 1px solid black;
+    width: 80%;
+    margin-left: 5%;
+    border-collapse: collapse;
+}
+#gebruikersTabel th, td{
+    border: 1px solid black;
+}
+#check{
+    height: 25px;
+}
+#cross{
+    height: 25px;
+}
+#tableWords
+{
+    width: 100%;
+}
+#tableCategory
+{
+    width: 100%;
+}
+.content
+{
+    width: 50%;
+    margin-left: 5%;
+    margin-top: 30px;
+    float: none;
+    display: inline-block;
+}
+.tableUsers
+{
+    width: 100%;
+}
+.login2
+{
+    height: 100vh;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    position: absolute;
+    background-color: mintcream;
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+form{
+    color:  #f7941d;
+    width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+form input{
+    width: 100%;
+    border: 2px solid black;
+    border-radius: 20px;
+    padding: 5px;
+}
+#submit{
+    margin-top: 20px;
+    color:  #f7941d;
+    width: 75px;
+    font-size: 18px;
+    float: right;
+    padding: 5px;
+}
+

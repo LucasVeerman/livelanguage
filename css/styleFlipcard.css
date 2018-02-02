@@ -1,0 +1,70 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #EF7D1B;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+}
+
+#flipcard{
+    background-color: #5E5E5E;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 10px;
+    height: 1100px;
+    padding-top: 10px;
+}
+
+
+p{
+    font-size: 10vw;
+    text-align: center;
+}
+
+#submitBtn{
+    width: 80vw;
+    height: 100px;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    margin-left: 10vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 9vw;
+    text-align: center;
+    cursor: pointer;
+}
+#textField
+{
+    width: 80vw;
+    height: 100px;
+    padding: 12px 20px;
+    /*margin: 8px 0;*/
+    margin-left: 10vw;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-sizing: border-box;
+    font-size: 9vw;
+    text-align: center;
+    margin-bottom: 25px;
+}
+#button{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#838383+0,838383+50,5e5e5e+51,5e5e5e+100 */
+    background: #838383; /* Old browsers */
+    background: -moz-linear-gradient(left, #838383 0%, #838383 50%, #5e5e5e 51%, #5e5e5e 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #838383 0%,#838383 50%,#5e5e5e 51%,#5e5e5e 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #838383 0%,#838383 50%,#5e5e5e 51%,#5e5e5e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#838383', endColorstr='#5e5e5e',GradientType=1 ); /* IE6-9 */
+    height: 50px;
+    width: 15%;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: white;
+    display: block;
+    font-size: 40px;
+
+}
